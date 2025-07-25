@@ -1,6 +1,36 @@
-*{ 
+*body{ 
+font-family: 'Times New Roman', Times, serif;
 margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color:#8f133c;
+    text-align: center;
+    line-height: 2.1;
+} 
+
+.hero img{
+    border-radius: 50;
+} 
+
+.accent{
+    color:rgba(0, 0, 0, 0.915);
+
+}
 
 
 
+.grind{
+    display: flex;
+    justify-content: center; 
+   /* justify-content: space-around; */
+    gap: 15px; 
+    flex-wrap:wrap; 
+} 
+
+.grid div{
+    background-color: royalblue  
+    
 }
