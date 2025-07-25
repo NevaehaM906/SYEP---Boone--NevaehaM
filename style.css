@@ -6,13 +6,13 @@ box-sizing: border-box;
 }
 
 body{
-    background-color:#8f133c;
+    background-color:#8d50c6;
     text-align: center;
     line-height: 2.1;
 } 
 
 .hero img{
-    border-radius: 50;
+    border-radius: 100px;
 } 
 
 .accent{
@@ -31,6 +31,8 @@ body{
 } 
 
 .grid div{
-    background-color: royalblue  
-    
+    background-color: rgb(134, 148, 193);
+    border-radius: 60px; 
+    padding: 7px; 
+    min-width: 80px; 
 }
